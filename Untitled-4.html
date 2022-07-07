@@ -1,0 +1,64 @@
+<! DOCTYPE html>
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <título>Calculadora consola</título>
+</cabeza>
+<cuerpo>
+
+        <Guión>
+            sea arte = 0;
+            sea art1 = 0;
+            sea art3 = 0;
+            sea art4 = 0;
+
+            
+            M_console();
+            M_console de funciones()
+            {
+
+                art =prompt('Escribe el tipo de operacion.\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Potencia','');
+                art1 =prompt('Escribe el numero 1 :','');
+                art2 =prompt('Escribe el numero 2 :','');
+                Calcular();
+                art4 =prompt('Desea hacer otra operacion? S | N','');
+                Obteneropc(art4);
+
+            }
+
+            función Calcular()
+            {
+                sea b = parseInt(art1);
+                sea c = parseInt(art2);
+                let topt = parseInt(art);
+                sea m = cálculo(b,topt,c);
+                return  alert("El resultado de la operacion: "+m);
+            }
+            función Obteneropc(r)
+            {
+                    interruptor(r)
+                    {
+                        caso 'S':M_console();
+                        caso 'N':documento. write('Si quiere volver a usar recarge\nCalculadora Arturo Hernandez Sanchez. ');
+                    }
+            }
+            cálculo de funciones (e1, tv, e2 ) 
+            {
+                sea resil = 0;
+                interruptor (tv)
+                {
+                    caso 1: retorno resil = e1+e2;
+                    caso 2:return resil = e1-e2;
+                    caso 3:return resil = e1*e2;
+                    caso 4:return resil = e1/e2;
+                    caso 5:return resil = Matemáticas. pow(e1, e2);
+                }
+            }
+
+
+        </Guión>
+    
+</cuerpo>
+</HTML>
